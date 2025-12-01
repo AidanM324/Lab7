@@ -27,5 +27,5 @@ async def main():
                 data = json.loads(msg.body)
                 print("Order Event:", msg.routing_key, data)
 
-    if __name__ == "__main__":
-        asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())
